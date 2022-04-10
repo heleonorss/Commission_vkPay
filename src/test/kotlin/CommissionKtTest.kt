@@ -60,4 +60,11 @@ internal class Commission_vKtTest {
         val result = payment (7)
         assertEquals( 0,result)
     }
+
+
+    @Test
+    fun payment_default_special() {
+        val result = payment (7)
+        assertEquals( 5,result)
+    }
 }
