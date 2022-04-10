@@ -65,6 +65,6 @@ internal class Commission_vKtTest {
     @Test
     fun payment_default_special() {
         val result = payment (7)
-        assertEquals( 5,result)
+        assertEquals( 0,result)
     }
 }
